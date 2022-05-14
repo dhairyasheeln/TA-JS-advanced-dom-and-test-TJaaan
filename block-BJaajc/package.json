@@ -1,14 +1,19 @@
 {
-  "name": "altcampus-assignment",
+  "name": "block-bjaajc",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest --watchAll --coverage",
+    "start": "parcel index.html"
   },
-  "author": "AltCampus",
-  "license": "GNU GPL V3",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
   "dependencies": {
-    "jest": "^26.0.1"
+    "lodash": "^4.17.21",
+    "parcel-bundler": "^1.12.5"
   }
 }
