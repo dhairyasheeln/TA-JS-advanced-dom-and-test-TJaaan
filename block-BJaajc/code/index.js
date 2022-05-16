@@ -1,5 +1,3 @@
-const { last } = require('lodash');
-
 function getFullName(firstName, lastName) {
   return `${firstName} ${lastName}`;
 }
