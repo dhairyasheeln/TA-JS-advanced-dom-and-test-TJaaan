@@ -1,10 +1,6 @@
-const { get } = require('lodash');
 const obj = require('./index');
 
-const { getFullName } = obj;
-const { isPalindrome } = obj;
-const { getCircumfrence } = obj;
-const { getArea } = obj;
+const { getFullName, isPalindrome, getCircumfrence, getArea } = obj;
 
 test('Firstname + lastname should return fullname', () => {
   expect(getFullName('Sam', 'James')).toBe('Sam James');
